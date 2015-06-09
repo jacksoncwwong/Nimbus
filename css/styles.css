@@ -1,0 +1,403 @@
+/*Fonts*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
+/*Fonts End*/
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+/*Bootstrap Overide*/
+.navbar {
+    min-height: 80px;
+    margin-bottom: 0;
+    border-radius: 0 !important;
+}
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 0;
+}
+
+.navbar-brand {
+    margin-top: 8px;
+}
+
+.navbar-right {
+    margin-top: 14px;
+}
+
+.navbar-toggle {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ff922e;
+}
+
+.navbar-default.gradient-nav {
+    background: #6e94e1; /* Old browsers */
+	background: -moz-linear-gradient(left, #6e94e1 0%, #8fe6ed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6e94e1), color-stop(100%,#8fe6ed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #6e94e1 0%,#8fe6ed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #6e94e1 0%,#8fe6ed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #6e94e1 0%,#8fe6ed 100%); /* IE10+ */
+	background: linear-gradient(to right, #6e94e1 0%,#8fe6ed 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e94e1', endColorstr='#8fe6ed',GradientType=1 ); /* IE6-9 */
+}
+/*Bootstrap Overide Ends*/
+
+/*Overall Styling*/
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5,
+.heading6 {
+    font-family: Open Sans;
+    font-weight: 800;
+}
+
+.heading4,
+.heading5 {
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+.heading4 {
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.subtext {
+    font-family: Quicksand;
+    font-weight: 300;
+}
+
+.btn {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 22px 65px;
+    color: white;
+    background: #ff922e;
+    text-transform: uppercase;
+    border: 2px solid #ff922e;
+}
+
+.btn:hover {
+    background: white;
+    color: #ff922e;
+}
+
+.navbar-default .navbar-nav>li>.active {
+    color: #ff922e;
+}
+
+.site-norm {
+    text-align: center;
+}
+
+.site-norm .heading2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+
+.site-norm .subtext {
+    font-size: 22px;
+    margin-bottom: 50px;
+    color: #959595;
+}
+
+footer {
+    padding: 86px 0;
+}
+
+footer .copyright .copyright-text {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #acacac;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+footer nav ul {
+    list-style: none;
+    height: 120px;
+    padding-left: 0;
+}
+
+footer nav ul li {
+    float: left;
+    width: 33.3333%;
+}
+
+footer nav ul li a {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    color: #acacac;
+    text-transform: uppercase;
+}
+
+footer nav ul li a:hover {
+	text-decoration: none;
+	color: #acacac;
+	opacity: 0.8;
+}
+
+footer .social-container {
+    text-align: right;
+}
+
+footer .social-container i {
+    color: #cdcdcd;
+    margin-left: 20px;
+}
+
+footer .social-container i:hover {
+	opacity: 0.8;
+}
+
+/*Overall Styling Ends*/
+
+/*Home Page Specific Styling*/
+#home-page header {
+    background: url("../assets/homepage/hero-photo.png") no-repeat;
+    background-size: cover;
+    height: 880px;
+}
+
+header .hero {
+    color: white;
+    text-align: center;
+}
+
+header .hero .cloud-img {
+    background: url("../assets/homepage/nimbus-icon-white.png");
+    width: 123px;
+    height: 110px;
+    margin: 165px auto 50px;
+}
+
+header .hero .heading1 {
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+header .hero .subtext {
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.get-to-know-us {
+    background: white;
+    padding: 108px 0;
+}
+
+.get-to-know-us .btn {
+    margin: 50px auto 0;
+}
+
+.features .heading5 {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.features .subtext {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.testimonial {
+    background: url("../assets/homepage/testimonial-photo1.png");
+    background-size: cover;
+    text-align: center;
+    padding: 166px 0;
+}
+
+.testimonial .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial .testimonial-content,
+.testimonial .author {
+    font-family: Quicksand;
+    color: white;
+}
+
+.testimonial .testimonial-content {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+    margin: 0 auto 58px;
+}
+
+.testimonial .author {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    margin: 0 auto 50px;
+}
+/*Home Page Styling Ends*/
+
+/*Servies Page Specific Styling*/
+.what-we-offer {
+    padding: 112px 0 160px;
+}
+
+.what-we-offer .subtext {
+	margin-bottom: 105px;
+}
+
+.offers {
+    max-width: 775px;
+    margin: 0 auto 95px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.offers img {
+    float: left;
+}
+
+.offers .text-container {
+    margin-left: 179px;
+}
+
+.offers .subtext {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+/*Services Page Styling Ends*/
+
+/*Team Page Styling*/
+.meet-our-team {
+    padding: 112px 0 160px;
+}
+.team-members {
+	display: inline-block;
+	width: 209px;
+	margin-right: 75px;
+}
+.team-members.last {
+	margin-right: 0;
+}
+.team-members .heading5 {
+	margin: 30px 0 18px;
+}
+.team-members .subtext {
+	margin: 18px 0 20px;
+	font-family: Open Sans;
+	font-size: 18px;
+}
+#team-page .team-members i {
+    color: #ff922e;
+    margin-right: 10px;
+}
+#team-page .team-members a:last-child i {
+    margin-right: 0;
+}
+#team-page .container > .subtext {
+	margin-top: 50px;
+	line-height: 36px;
+}
+/*Team Page Styling Ends*/
+
+
+/*Mobile Styling*/
+/*Mobile Footer Styling*/
+@media screen and (max-width: 991px) {
+    .team-members {
+		display: block;
+		margin: 0 auto;
+		width: auto;
+	}
+
+    footer nav {
+        margin: 25px 0;
+    }
+
+    footer .social-container {
+        text-align: left;
+    }
+
+    footer .social-container i {
+        margin: 0 20px 0 0;
+    }
+}
+/*Mobile Page Specific Styling*/
+@media screen and (max-width: 767px) {
+	.features {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#home-page header {
+	    height: 700px;
+	}
+
+	header .hero .cloud-img {
+	    margin-top: 120px;
+	}
+
+	header .hero .heading1 {
+	    font-size: 30px;
+	    margin-bottom: 30px;
+	}
+
+	header .hero .subtext {
+	    font-size: 22px;
+	    margin-bottom: 50px;
+	}
+
+    .meet-our-team {
+        padding-bottom: 60px;
+    }
+
+	.offers {
+	    max-width: 400px;
+	    padding: 0 20px;
+	    margin: 0 auto 95px;
+	    text-align: center;
+	}
+
+	.offers img {
+		margin-bottom: 30px;
+		float: none;
+	}
+
+	.offers .text-container {
+	    margin-left: 0 !important;
+	}
+
+    .what-we-offer {
+        padding-bottom: 60px;
+    }
+
+    .offers .text-container {
+        margin-left: 130px;
+    }
+}
+/*Mobile Page Specific Styling*/
+/*Mobile Styling Ends*/
